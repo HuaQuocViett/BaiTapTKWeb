@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ôn tập 2</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="index2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     </head>
+     <body>
+        <nav class="navbar navbar-expand-md p-3 pt-md-4">
+
+            <button class="navbar-toggler text-success fs-5 fw-bold" id="btn_menu" type="button" data-bs-toggle="collapse" data-bs-target="#search" 
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-search "></span>
+            </button>
+
+            <a href="#" class="navbar-brand">
+                <img src="logo.png" alt="logo" id="logo" class="logo ps-5">
+            </a>
+
+            <button class="navbar-toggler text-success fs-5 fw-bold" id="btn_menu" type="button" data-bs-toggle="collapse" data-bs-target="#menucollapse" 
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-justify "></span>
+            </button>
+            <div class="collapse navbar-collapse rounded-3 bg-success" id="search">
+                    <form role="search" class="d-flex p-1">
+                        <input type="search"  class="form-control fst-italic fw-bold " id="search" placeholder="Tìm kiếm" aria-label="Search">
+                    </form>
+                    <i class="bi bi-search"></i>
+            </div>
+            <div class="collapse navbar-collapse rounded-3" id="menucollapse">
+                <ul class="navbar-nav me-auto">
+                    <div class="btn btn-group" role="group">
+                        <button class="nav-link display-5 p-0 dropdown-toggle fw-bold" id="txt_dropmenu" data-bs-toggle="dropdown">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-success">
+                            <li class="dropdown-item text-center ">
+                                <a href="#" class="nav-link fw-bold" id="txt_dropmenu">Dropmenu1</a>
+                            </li>
+                            <li class="dropdown-item text-center">
+                                <a href="#" class="nav-link fw-bold" id="txt_dropmenu">Dropmenu2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link text-light display-5 px-4 fw-bolder">Đặc hàng</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link text-light display-5  fw-bolder">Liên lạc</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="container-md">
+            <div class="col-md-12 ">
+                <h3 class="text-danger text-center pt-md-5 ms-3 me-5 fs-1"><strong>The Pizza Company Pizza phong vị Ý</strong></h3>
+                <p class="text-success fs-4"><strong>The PIZZA Company</strong> thuộc sở hữu của tập đoàn Minor Food Group, tự hào cung cấp cho khánh hàng
+                    gần 20 loại bánh pizza thơm ngon với nhân bánh dày đặc trưng nổi bật vị phô mai hảo hạng... 
+                </p>
+            </div>
+        </header>
+        <div class="container-fluid bg-success ">
+            <p class="text-center text-warning"><strong>- Khuyến mãi - Combo -</strong></p>
+        </div>
+
+        <main class="row p-md-5">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 ps-3">
+                    <img src="img_02.png" alt="Pic1" class="Pic d-block mx-auto mb-1">
+                    <p class="text-success text-center"><strong>Pizza Hải Sản Cocktail</strong></p>
+                    <p class="text-center">Giá chỉ từ: <strong class="fs-3 text-danger">299.000đ</strong></p> 
+                    <button class=" btn btn-success d-block mx-auto mb-2">Mua Ngay<i class="bi bi-arrow-right"></i></button>
+                </div>
+                <div class="col-md-4 col-sm-6 ps-3">
+                    <img src="img_03.png" alt="Pic2" class="Pic d-block mx-auto mb-1">
+                    <p class="text-success text-center "><strong>Pizza Đặc Biệt Company</strong></p>
+                    <p class="text-center">Giá chỉ từ: <strong class="fs-3 text-danger">399.000đ</strong></p> 
+                    <button class="btn btn-success d-block mx-auto mb-2">Mua Ngay<i class="bi bi-arrow-right"></i></button>
+                </div>
+                <div class="col-md-4 col-sm-12 ps-3">
+                    <img src="img_01.png" alt="Pic3" class="Pic d-block mx-auto mb-1">
+                    <p class="text-success text-center"><strong>Mua 1 tặng 1 Pizza chay sile L</strong></p>
+                    <p class="text-center">Giá chỉ từ: <strong class="fs-3 text-danger">399.000đ</strong></> 
+                    <button class="btn btn-success d-block mx-auto mt-3 mb-2">Mua Ngay<i class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+        </main>
+        <footer class="fs-bolder fs-4 text-center py-2 text-warning">
+            Designed by Hua Nguyen Quoc Viet 64132966
+        </footer>
+     </body>
+</html>
